@@ -1,0 +1,224 @@
+.body{
+    font-family: "Lato", sans-serif;
+}
+
+
+.navbar {
+    background-color: transparent !important; /* Cambiar color de fondo */
+    font-family: "Lato", sans-serif;
+    background: url('/images/3.svg') no-repeat center center; 
+    background-size: cover;
+    align-content: center;
+    
+  }
+.navbar-brand{
+    color:  #295c5c;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.navbar-nav .nav-link{
+    color: #0f2224;
+    font-weight: 510;
+    
+}
+.navbar-nav .nav-link.active{
+    color: #c32882;
+}
+.navbar-nav :hover{
+    color: #ce3491;
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 35px; /* Ajusta el valor según sea necesario */
+  }
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Quita el margen del último elemento */
+  }
+
+
+
+.section #section1 #section2{
+    align-content: center;
+    align-items: center;   
+    
+}
+#section1{
+    background: url('/images/3.svg') no-repeat center center; 
+    background-size: cover;
+    align-content: center;
+    
+}
+
+#section2{
+    background: url('/images/blurry-gradient-haikei.svg') no-repeat center center; 
+    background-size: cover;
+    align-content: center;
+    text-align: justify;
+    
+}
+
+.p .text{
+  text-align: justify;
+ 
+}
+
+.order-md-2{
+  align-content: center;
+  
+}
+
+.container{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid{
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.btn-primary{
+    background-color: #6cb4b1;
+    border: #ce3491;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.btn-primary:hover{
+    background-color: #ce3491;
+}
+
+.title{
+     /* Fuente serif para dar un toque elegante */
+        font-size: 6rem; /* Tamaño de fuente */
+        font-weight: bold; /* Negrita */
+        color: #223f3f; /* Color azul, puedes cambiar esto según tu preferencia */
+        text-align: center; /* Alineación a la izquierda */
+        margin: 10px 0;
+        
+}
+
+.text-left{
+    color: #0f2224;
+}
+.sub-title{
+    color: #4b0c2f;
+    font-size: 2rem;
+    font-size: 20;
+    font-style: italic;
+}
+
+.text{
+    text-align: justify;
+}
+
+.container-count {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #fcf3f9;
+  border-radius: 30px;
+  margin: 10px;
+  border-color: #ce3491;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5%;
+  font-size: 30px;
+  color: aliceblue;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+}
+.counter-1 , .counter-3{
+  background-color: #ce3491;
+}
+.counter-2{
+  background-color: #6cb4b1;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+    .sub-title {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+    }
+    .btn-primary{
+        font-size: 300;
+    }
+    .title{
+      font-size: 3rem;
+    }
+    .text{
+      font-size: 10px;
+    }
+    
+    
+  }
+  @media (max-width: 576px) {
+    .title {
+      font-size: 3rem;
+    }
+    .sub-title {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 1rem;
+    }
+    .container{
+        justify-content: center;
+        align-content: center;
+    }
+    .counter{
+      width: 50px;
+      height: 50px;
+      font-size: 16px;
+    }
+    .container-count {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .counter-wrapper {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .counter-wrapper p,
+    .counter-wrapper h6 {
+      margin: 0;
+      padding-left: 10px;
+      text-align: left;
+    }
+    .container-count{
+      margin: 0px;
+  }
+}
