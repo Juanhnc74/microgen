@@ -485,7 +485,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #2f7272;
+  color: #c32882;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -888,6 +888,8 @@ section {
   position: relative;
   text-align: center;
   background: #fff;
+  border: 1px solid #6cb4b1;
+  border-radius: 10px;
 }
 
 .counts .count-box i {
